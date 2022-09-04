@@ -19,9 +19,12 @@ files = sorted([os.path.join(path, file) for file in nobel_speeches if file.ends
 
 stops = set(stopwords.words('english'))
 
-stops.update(["–","…","*", " ", ""])
+stops.update(["–","…","*", " ", "", "highnesses\ndistinguished", "committee\nfellow"])
 
 #FUNCTIONS
+
+def takeSecond(elem):
+    return elem[1]
 
 def create_wordlist(file):
 
@@ -44,15 +47,28 @@ def create_wordlist(file):
             elif word not in stops:
                 vocab_list.append(word)\
 
-        most_frequent_words = col.Counter(vocab_list)
+        most_frequent = col.Counter(vocab_list)
+    
+    most_frequent_words = []
 
-    print(most_frequent_words)
+    for key in most_frequent:
+        if most_frequent[key] > 2:
+            most_frequent_words.append((key, most_frequent[key]))
+
+    mfw = sorted(most_frequent_words, reverse= True, key = takeSecond)
+    
+    return mfw
+
 
 #MAIN
 
 def main(file):
 
-    create_wordlist(files)
+    num = int(input("How many words would you like to see?: "))
+
+    words = create_wordlist(files)
+
+    print(words[0:num-1])
 
 main(files)
 
