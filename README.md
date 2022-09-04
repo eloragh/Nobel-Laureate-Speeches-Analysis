@@ -7,6 +7,8 @@ words most used by Nobel Peace Prize Laureates in their Laureate speech.
 
 ## Getting Started
 
+* If you want to read the process of this analysis, I recommend looking at this [Jupyter Notebook](https://github.com/eloragh/nobel_speeches_freq_analysis-1/blob/main/ns_speech_analysis_redo.ipynb).
+
 ### Dependencies
 
 * [Install NLTK as well as NLTK.corpus.](https://www.nltk.org/install.html)
@@ -14,9 +16,8 @@ words most used by Nobel Peace Prize Laureates in their Laureate speech.
 
 ### Installing
 
-* If you'd like to read through my thought process download the [Nobel Laureate Speeches Analysis 2.0](https://github.com/eloragh/nobel_speeches_freq_analysis-1/blob/main/ns_speech_analysis_redo.ipynb).
 * To run from the command line, [download this .py file of the same analysis](https://github.com/eloragh/nobel_speeches_freq_analysis-1/blob/main/nobel_speech_analysis.py).
-* Make sure to download the folder of speeches as "nobelspeeches". 
+* Make sure to download the [folder of speeches](https://github.com/eloragh/nobel_speeches_freq_analysis-1/tree/main/nobelspeeches) as "nobelspeeches". 
 * **This analysis assumes that both the .py file and folder of speeches are in the same directory.**
 
 ### Executing program
