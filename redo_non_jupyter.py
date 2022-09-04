@@ -45,7 +45,7 @@ def create_wordlist(file):
             if word.startswith("\'"):
                 pass
             elif word not in stops:
-                vocab_list.append(word)\
+                vocab_list.append(word)
 
         most_frequent = col.Counter(vocab_list)
     
