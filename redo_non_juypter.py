@@ -44,17 +44,17 @@ def create_wordlist(file):
             elif word not in stops:
                 vocab_list.append(word)\
 
-        most_frequent_words = col.Counter(vocab_list).most_common()
+        most_frequent_words = col.Counter(vocab_list)
 
-    return most_frequent_words
+    print(most_frequent_words)
 
 #MAIN
 
-def main():
+def main(file):
 
     create_wordlist(files)
 
-main()
+main(files)
 
 
 
