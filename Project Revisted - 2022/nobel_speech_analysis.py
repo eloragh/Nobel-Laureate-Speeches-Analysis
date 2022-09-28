@@ -10,7 +10,7 @@ from pathlib import Path
 #GLOBALS
 
 #define the path where the speech files are found
-path = Path.cwd()/ "nobelspeeches"
+path = Path.cwd()/ "Project Revisted - 2022/nobelspeeches"
 
 nobel_speeches = os.listdir(path)
 
