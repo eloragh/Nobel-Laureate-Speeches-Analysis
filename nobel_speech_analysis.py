@@ -23,9 +23,6 @@ stops.update(["–","…","*", " ", "", "highnesses\ndistinguished", "committee\
 
 #FUNCTIONS
 
-def takeSecond(elem):
-    return elem[1]
-
 def create_wordlist(file):
 
     vocab_list = []
@@ -66,7 +63,7 @@ def create_wordlist(file):
         if most_frequent[key] > 2:
             most_frequent_words.append((key, most_frequent[key]))
 
-    mfw = sorted(most_frequent_words, reverse= True, key = takeSecond)
+    mfw = sorted(most_frequent_words, key = lambda x: x[1] ,reverse= True)
     
     return mfw
 
