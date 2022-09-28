@@ -35,9 +35,9 @@ Eloragh Espie |
 ## Version History
 
 * 2.0
-    * [Redid the analysis to be simpler and more efficient](https://github.com/eloragh/nobel_speeches_freq_analysis-1/blob/main/ns_speech_analysis_redo.ipynb).
+    * [Redid the analysis to be simpler and more efficient](https://github.com/eloragh/Nobel-Laureate-Speeches-Analysis/tree/main/Project%20Revisted%20-%202022).
 * 1.0
-    * [Initial Release](https://github.com/eloragh/nobel_speeches_freq_analysis-1/blob/main/nobel_peace_speech_analysis.py).
+    * [Initial Release](https://github.com/eloragh/Nobel-Laureate-Speeches-Analysis/tree/main/Initial%20Project%20-%202021).
 
 ## Acknowledgments
 
