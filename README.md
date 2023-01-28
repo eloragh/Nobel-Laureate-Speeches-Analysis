@@ -1,5 +1,15 @@
 # Analyzing Nobel Peace Prize Speeches
 
+## Table of Contents
+- [Description](#description)
+- [Getting Started](#getting-started)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Execution](#execution)
+- [Authors](#authors)
+- [Version History](#version-history)
+- [Acknowledgments](#acknowledgments)
+
 ## Description
 
 Using NLTK and collections, I was able to easily parse through text files and iterate through the words within them. I created a dictionary that represents the
@@ -14,13 +24,13 @@ words most used by Nobel Peace Prize Laureates in their Laureate speech.
 * [Install NLTK as well as NLTK.corpus.](https://www.nltk.org/install.html)
 * [Download the folder of 29 text files that hold the Laureates speeches](https://github.com/eloragh/nobel_speeches_freq_analysis-1/tree/main/nobelspeeches).
 
-### Installing
+### Installation
 
 * To run from the command line, [download this .py file of the same analysis](https://github.com/eloragh/nobel_speeches_freq_analysis-1/blob/main/nobel_speech_analysis.py).
 * Make sure to download the [folder of speeches](https://github.com/eloragh/nobel_speeches_freq_analysis-1/tree/main/nobelspeeches) as "nobelspeeches". 
 * **This analysis assumes that both the .py file and folder of speeches are in the same directory.**
 
-### Executing program
+### Execution
 
 ```
 cd *insert your absolute path*
